@@ -54,9 +54,6 @@ A terrible cyclops has made this island his home.
   -> DONE
 
 === home ===
-~ gold = 20
-~ crew = 20
-
 {
   - crew < 1:
     You have arrived home, but can't dock the ship without any crew to help you.
