@@ -54,14 +54,17 @@ A terrible cyclops has made this island his home.
   -> DONE
 
 === home ===
+~ gold = 20
+~ crew = 20
+
 {
   - crew < 1:
     You have arrived home, but can't dock the ship without any crew to help you.
-    -> DONE
   - gold < 5:
     You have arrived home, but can't afford the docking fee of 5 gold coins. 
   - else:
     You have arrived home. Argos and Penelope are delighted. You win!
 }
 
+# ENDING
 - -> DONE

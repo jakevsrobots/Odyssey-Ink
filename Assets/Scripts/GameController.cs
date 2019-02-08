@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
   public TextAsset inkJson;
@@ -118,5 +119,12 @@ public class GameController : MonoBehaviour {
     textPanel.SetActive(false);
     endStoryButton.gameObject.SetActive(false);
     LeaveIsland();
+
+    // See the example Ink script. We use a tag to indicate when the
+    // game has reached an ending.
+    
+    if(story.currentTags.Contains("ENDING")) {
+      SceneManager.LoadScene("TheEnd");
+    }
   }
 }
