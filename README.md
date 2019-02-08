@@ -6,6 +6,9 @@ This is an EXTREMELY simple sample project I made to help demonstrate to student
 - Act as a kind of simple database of those stories.
 - Track story-relevant game state (in this case, crew size and gold).
 
+Ink is created by Inkle Studios, and you can learn more about it here:
+https://www.inklestudios.com/ink/
+
 ## Plugins
 
 For simplicity, this repository includes the Ink-unity plugin. But you should always go download the latest version here:
